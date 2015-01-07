@@ -41,6 +41,8 @@ def partition(list_input, first, last):
 
 	return right_mark
 
-alist = [54, 36, 5, 4, 23]
-quicksort(alist)
-print alist
+
+if __name__ == "__main__":
+	alist = [54, 36, 5, 4, 23]
+	quicksort(alist)
+	print alist

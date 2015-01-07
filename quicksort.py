@@ -21,6 +21,5 @@ def quicksort(list_input):
 	else: 
 		return list_input
 	
-
-
-print my_quicksort(unordered_list)
+if __name__ == '__main__':
+	print quicksort(unordered_list)

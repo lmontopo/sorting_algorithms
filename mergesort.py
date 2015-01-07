@@ -32,6 +32,6 @@ def split(alist):
 	return alist[0: split_pos], alist[split_pos:]
 
 
-
-alist = [103, 9, 7, 20, 12, 3, 66, 24]
-print mergesort(alist)
+if __name__ == "__main__":
+	alist = [103, 9, 7, 20, 12, 3, 66, 24]
+	print mergesort(alist)
